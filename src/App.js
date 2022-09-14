@@ -1,8 +1,8 @@
-
+import Header from "./Components/Header";
 
 function App() {
   return (<div>
-    <h1>Beginning the development of React Notes app with create-react-app</h1>
+    <Header />
     </div>
   );
 }
