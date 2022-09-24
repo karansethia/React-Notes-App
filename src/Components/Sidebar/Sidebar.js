@@ -1,7 +1,10 @@
+import NotesList from "./NotesList"
 import Header from "./Header"
 
 export default function Sidebar(){
-    return(
+    return(<div>
         <Header />
+        <NotesList />
+    </div>
     )
 }
