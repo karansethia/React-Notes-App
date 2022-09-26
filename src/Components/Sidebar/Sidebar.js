@@ -1,9 +1,10 @@
 import NotesList from "./NotesList"
 import Header from "./Header"
 
-export default function Sidebar(){
+export default function Sidebar(props){
+    // console.log(props);
     return(<div>
-        <Header />
+        <Header heading={props[0]}/>
         <NotesList />
     </div>
     )

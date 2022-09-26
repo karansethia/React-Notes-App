@@ -28,7 +28,7 @@ function App() {
     }
   ]
   return (<div>
-    <Sidebar />
+    <Sidebar data={NOTES_DATA}/>
     </div>
   );
 }

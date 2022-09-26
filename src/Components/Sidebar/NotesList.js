@@ -1,6 +1,7 @@
 import './Noteslist.css'
 
-export default function NotesList(){
+export default function NotesList(props){
+    console.log(props.title);
     return(
         <div className="notes-list">
             <h3>This is where title should appear</h3>
