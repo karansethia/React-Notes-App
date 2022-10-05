@@ -1,4 +1,7 @@
-.sidenote{
+.side-note{
     font-family: sans-serif;
     padding: 10px;
+    margin: auto;
+    color: aliceblue;
+    background-color: aquamarine;
 }
