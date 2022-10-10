@@ -5,6 +5,8 @@ export default function NotesList(props){
     return(
         <div className='notes-list'>
         <SideNote />
+        <SideNote />
+        <SideNote />
         </div>
     )
 }

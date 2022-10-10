@@ -1,7 +1,19 @@
 .side-note{
+    display: flex;
+    justify-content: space-around;
     font-family: sans-serif;
-    padding: 10px;
-    margin: auto;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
     color: aliceblue;
-    background-color: aquamarine;
+    background-color: rgb(3, 3, 68);
+}
+.editBtn{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.editBtn > img{
+    width: 24px;
+    height: 24px;
 }
