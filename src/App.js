@@ -1,5 +1,6 @@
+import './app.css'
 import Sidebar from "./Components/Sidebar/Sidebar";
-
+import NotesForm from "./Components/NotesWindow/Notesform";
 function App() {
   const NOTES_DATA = [
     {
@@ -27,8 +28,9 @@ function App() {
       'content': "This is the content for Personal work"
     }
   ]
-  return (<div>
+  return (<div className="app_style">
     <Sidebar data={NOTES_DATA}/>
+    <NotesForm />
     </div>
   );
 }
