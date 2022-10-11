@@ -1,6 +1,6 @@
 import './app.css'
 import Sidebar from "./Components/Sidebar/Sidebar";
-import NotesForm from "./Components/NotesWindow/Notesform";
+import NotesForm from "./Components/NotesWindow/NotesForm";
 function App() {
   const NOTES_DATA = [
     {
