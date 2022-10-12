@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    /* background-color: #4d4d4d; */
 }
 .notes-list{
     width: 30vw;
     height: 85vw;
     background-color: #202532;
+    border-radius: 20px;
 }

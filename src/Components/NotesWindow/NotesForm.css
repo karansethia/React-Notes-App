@@ -1,5 +1,11 @@
-
+.notes{
+    background-color: #4d4d4d;
+}
 .notes_body{
+    margin: 50px 70px;
+    padding: 120px;
     background-color: rgb(42, 42, 52);
+    width: 60vw;
     height: 90vh;
+    border-radius: 20px;
 }
